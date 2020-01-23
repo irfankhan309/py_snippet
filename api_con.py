@@ -1,7 +1,8 @@
-import time
-def fun1():
-	time.sleep(2)
-	print('some thing')
+import datetime
+class some:
+	def f1(self):
+		print('first class')
 
 
-fun1()
+s = some()
+s.f1()
