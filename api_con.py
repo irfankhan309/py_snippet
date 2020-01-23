@@ -2,7 +2,7 @@ class InitialSignupForm(forms.Form):
     email = forms.EmailField()
     password = forms.CharField(max_length=255, widget = forms.PasswordInput)
     password_repeat = forms.CharField(max_length=255, widget = forms.PasswordInput)
-
+    
     def clean_message(self):
         email = self.clean_data.get('email', '')
         password = self.clean_data.get('password', '')
