@@ -1,2 +1,2 @@
 import django
-print(dir(django))
+print(dir())
