@@ -6,6 +6,8 @@ def dic():
             value = eval(input('enter the value'))
         except Exception as e:
             print('you have not enterd any key and value..')
+        else:
+            print("no data found")
         finally:
             print(dictionary)
             app = dictionary[key]=value
