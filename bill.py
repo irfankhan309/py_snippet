@@ -2,7 +2,7 @@ import time
 import datetime
 import requests
 import boto3
-
+	
 
 
 s3 = boto3.resource('s3',aws_access_key_id=AWS_Access_Key_Id,aws_secret_access_key=AWS_Secret_Key)
